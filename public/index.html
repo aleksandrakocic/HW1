@@ -2,54 +2,61 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Webpack Test</title>
+	<title>Webpack Test ~HW1</title>
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+	<!--
+	~ Use the webpack starter kit project to setup a website. 
+	~ Create an example page, with navigation menu, footer, mobile version. 
+	~ The content should be with a slider or a lightbox and some lorem ipsum text.
+	~ In all, it should look like a blog post.  You need to use bootstrap and jquery, installed over npm.
+	~ The design can be your own, it doesn't have to be much. Have fun and play around. 
+	-->
 
-		<div id="home">
-				<nav>
-					<ul>
-						<li>lorem</li>
-						<li>lorem</li>
-						<li>lorem</li>
-						<li>lorem</li>
-						<li>lorem</li>	
-					</ul>
-				</nav>
-			</div>
-<!-- 
-	<header>
-		<h1>Hello World</h1>
-	</header>
-	
-	<div class="your-class">
-	  <div><img src="assets/images/corgi.jpg" alt=""></div>
-	  <div><img src="assets/images/corgi.jpg" alt=""></div>
-	  <div><img src="assets/images/corgi.jpg" alt=""></div>
-	</div>
-
-	<main>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti eius tenetur repellat, perferendis cupiditate harum aliquid vero quae debitis quidem libero saepe nemo modi aliquam quis odio aut quod autem.</p>
-		<p>Consectetur ipsum laboriosam, enim eaque dolorum reprehenderit esse accusamus vero aut, magni inventore velit officia culpa vitae itaque ea rem, consequuntur incidunt impedit, error eligendi? Explicabo autem amet vero natus.</p>
-		<p>Cumque debitis, vitae atque, vero culpa libero illum fugit, ratione non adipisci sapiente velit, excepturi aperiam rem repudiandae provident dolor aut. Consequatur nostrum, porro ut quos suscipit provident fugiat commodi?</p>
-		<p>Vitae sequi sunt modi, quasi, est facere non omnis consectetur, quibusdam tempora at voluptatum sit. Unde earum, neque ut excepturi quos, consectetur iusto adipisci! Inventore, ipsa impedit maiores unde repudiandae.</p>
-		<p>Eum est recusandae ex, optio non quas et laudantium a? Error quibusdam laboriosam iusto ut accusamus reiciendis ipsa? Tenetur explicabo cum molestiae, accusantium numquam praesentium omnis ipsum voluptas nihil facere.</p>
-		<p>Officiis modi, fugit debitis accusantium quas hic adipisci reiciendis voluptatibus vitae beatae fugiat perspiciatis non obcaecati? Laboriosam nam velit illo molestias culpa qui, nulla placeat corrupti est ex ducimus esse?</p>
-		<p>Labore ipsum molestiae sit obcaecati beatae dolore, accusantium deleniti, sint eaque unde, mollitia consequatur minus assumenda nam et. Aliquam reiciendis, atque accusantium. Vel eos unde enim voluptates harum nulla incidunt!</p>
-	</main>
-
-	<footer>
-		<p>Copyright &copy; 2018.</p>
-	</footer> -->
 
 	
+	<div id="hero" class="container-fluid remove">
+		<div class="row  justify-content-between  align-items-center " id="nav">
+		  
+		  <h1>LOGO</h1>
+		    <ul class=" col-lg-8 d-flex justify-content-around justify-content-end">
+			 <li><a href="">lorem</a></li>
+			 <li><a href="">lorem</a></li>
+			 <li><a href="">lorem</a></li>
+			 <li><a href="">lorem</a></li>
+		    </ul>
+		</div>
+
+		<!-- _____________POST____________  -->
+	<div id='post'>
+	  <h1 class='row justify-content-around'>Lorem ipsum dolor</h1>
+	  <div id='gallery' class="one-time container d-flex justify-content-center">
+		<div class='container d-flex justify-content-center'><img src="assets/images/img1.jpg" alt=""></div>
+		<div class='container d-flex justify-content-center'><img src="assets/images/img2.jpg" alt=""></div>
+		<div class='container d-flex justify-content-center'><img src="assets/images/img3.jpg" alt=""></div>
+	  </div>
+	  <div class='d-flex justify-content-center'  id='postText'>
+	   <p>Integer a semper elit. Proin vitae erat dictum metus tincidunt auctor. Cras facilisis nibh lectus, quis placerat mauris viverra nec. Ut id dui tellus. Donec laoreet imperdiet consectetur. Vivamus rhoncus sodales erat eget consectetur. Nam congue suscipit orci vitae malesuada. Morbi iaculis erat sed orci laoreet, eu interdum sapien aliquet. Ut odio nisi, molestie quis rhoncus tincidunt, feugiat id justo. Suspendisse molestie orci nisi, tempus pretium orci tempus sed. Integer a volutpat libero. Donec in mollis urna. Vivamus non nunc ac lorem blandit viverra et vel metus. Aliquam interdum felis a metus interdum, pulvinar elementum risus auctor. Ut placerat vitae augue mollis eleifend. Nunc faucibus lectus sed eros dapibus viverra.</p>
+      </div> 
+    </div>
 
 
+	  <!--  __________FOOTER__________ -->
+	<div id='footer'>
+      <div class='container d-flex justify-content-center'>
+	    <div class="d-flex justify-content-around">
+	      <div id="copyright">
+		   <p> Aleksandra Kocic &copy 2018. </p>
+		   <p> -All Rights Reserved Terms of Use and Privacy Policy- </p>
+		  </div>
+	    </div>
+	 </div>
+   </div>
+    
 	<script src="assets/js/app.js"></script>
-
-	<!-- ?
-		<script type="text/javascript" src="scripts/vendor.js"></script>
-	    <script type="text/javascript" src="scripts/scripts.min.js"></script> -->
+    <script type="text/javascript" src="scripts/vendor.js"></script>
+    <script type="text/javascript" src="scripts/scripts.min.js"></script>
+        
 </body>
 </html>

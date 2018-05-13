@@ -1,0 +1,23 @@
+#post{
+      margin-top: 10vh;
+      h1{
+         font-size: 8vh;
+         font-weight: 300;
+        }
+        #gallery{
+                 width: 90vw;
+                 div{
+                     img{
+                         height: 500px;
+                        }  
+                    }
+                }
+
+        #postText{
+             p{
+                width: 80vw;
+                font-size: 3vh;
+                text-align: center;
+            }
+        }
+}
